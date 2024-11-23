@@ -139,7 +139,7 @@ body {
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #c2c1c1;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -149,7 +149,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 18px;
-    color: #818181;
+    color: #3c3c3c;
     display: block;
     transition: 0.3s;
 }
