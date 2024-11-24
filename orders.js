@@ -1364,12 +1364,12 @@ function showOrderConfirmationModal(order, imgData) {
   // Show modal
   modalInstance.show();
 
-  /* Play advanced confirmation sound
+  //Play advanced confirmation sound
   playAdvancedConfirmationSound();
   sendWebPushNotification(order.partyName);
   // Send notification to Telegram
   sendTelegramNotification(order.partyName, order.totalQuantity, order.orderNumber, imgData);
-*/
+
   // Update pending orders list
   loadPendingOrders();
 }
@@ -1379,11 +1379,11 @@ function sendWebPushNotification(partyName) {
   const token = '98413';
 
   const payload = {
-    badge:'https://i.postimg.cc/BQ2J7HGM/03042020043247760-brlo.png',
-    title: 'KA OMS',
-    message: `New Order for ${partyName}`,
+    badge:'https://i.postimg.cc/L8PyLd3q/BO-LD-3.png',
+    title: 'HC LOV OMS',
+    message: `New lOVABLE Order for ${partyName}`,
     target_url: 'https://ka-oms.netlify.app', // Replace with your website URL
-    icon: 'https://i.postimg.cc/BQ2J7HGM/03042020043247760-brlo.png'
+    icon: 'https://i.postimg.cc/L8PyLd3q/BO-LD-3.png'
   };
 
   fetch('https://api.webpushr.com/v1/notification/send/all', {
